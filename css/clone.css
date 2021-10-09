@@ -336,3 +336,61 @@ a.follow
 ::-webkit-scrollbar-thumb:hover {
   background: #bcedefa3; 
 }
+footer {
+    background-color: #161715;
+    height: vh;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .containerUp {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .social-info {
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    padding-right: 15px;
+  }
+  
+  .social-info > .icons {
+    margin: 0 auto;
+    transition: 0.5s;
+  }
+  
+  .social-info > .icons > a {
+    display: inline-block;
+  }
+  
+  .icons {
+    display: flex;
+  }
+  
+  .social-info > h2 {
+    color: gainsboro;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .social-info > .icons > a > img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    transition: 0.3s;
+  }
+  
+  
+  .social-info > .icons > a > img:hover {
+    cursor: pointer;
+    overflow: hidden;
+    transform: scale(1.2);
+  }
+  
